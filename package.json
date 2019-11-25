@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "- Completed   - .gitignore file    - file directories   - data file   - npm installation   - html routing and api routing   - logics for finding the most compatible friend   - display friend on modal - Current development   - display picture on modal   - update data file with added user input   - survey question revision   - include app running screenshots   - deploy to github and heroku",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "heroku": "^7.35.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericjchoi/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericjchoi/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/ericjchoi/FriendFinder#readme"
+}
