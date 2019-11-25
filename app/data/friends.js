@@ -1,6 +1,6 @@
 var friendData = [{
         "name": "Anna",
-        "photo": "../images/anna.jpg",
+        "photo": "../images/anna.jpeg",
         "scores": [
             4,
             2,
@@ -16,7 +16,7 @@ var friendData = [{
     },
     {
         "name": "Buzz Lightyear",
-        "photo": "../images/buzz.jpg",
+        "photo": "../images/buzz.jpeg",
         "scores": [
             5,
             5,
@@ -32,7 +32,7 @@ var friendData = [{
     },
     {
         "name": "Elsa",
-        "photo": "../images/elsa.jpg",
+        "photo": "../images/elsa.jpeg",
         "scores": [
             3,
             2,
@@ -48,7 +48,7 @@ var friendData = [{
     },
     {
         "name": "Jack Sparrow",
-        "photo": "../images/jacksparrow.jpg",
+        "photo": "../images/jacksparrow.jpeg",
         "scores": [
             5,
             5,
@@ -64,7 +64,7 @@ var friendData = [{
     },
     {
         "name": "Jessie",
-        "photo": "../images/jessie.jpg",
+        "photo": "../images/jessie.jpeg",
         "scores": [
             4,
             2,
@@ -80,7 +80,7 @@ var friendData = [{
     },
     {
         "name": "Kristoff",
-        "photo": "../images/kristoff.jpg",
+        "photo": "../images/kristoff.jpeg",
         "scores": [
             2,
             3,
@@ -96,7 +96,7 @@ var friendData = [{
     },
     {
         "name": "Olaf",
-        "photo": "../images/olaf.jpg",
+        "photo": "../images/olaf.jpeg",
         "scores": [
             4,
             1,
@@ -112,7 +112,7 @@ var friendData = [{
     },
     {
         "name": "Silvermist",
-        "photo": "../images/silvermist.jpg",
+        "photo": "../images/silvermist.jpeg",
         "scores": [
             4,
             1,
@@ -128,7 +128,7 @@ var friendData = [{
     },
     {
         "name": "Woody",
-        "photo": "../images/woody.jpg",
+        "photo": "../images/woody.jpeg",
         "scores": [
             2,
             2,
