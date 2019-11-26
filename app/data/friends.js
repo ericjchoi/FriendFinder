@@ -1,22 +1,6 @@
 var friendData = [{
-        "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores": [
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-        ]
-    },
-    {
         "name": "Anna",
-        "photo": "../images/anna.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/anna.jpeg",
         "scores": [
             4,
             2,
@@ -32,7 +16,7 @@ var friendData = [{
     },
     {
         "name": "Buzz Lightyear",
-        "photo": "../images/buzz.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/buzz.jpeg",
         "scores": [
             5,
             5,
@@ -48,7 +32,7 @@ var friendData = [{
     },
     {
         "name": "Elsa",
-        "photo": "../images/elsa.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/elsa.jpeg",
         "scores": [
             3,
             2,
@@ -64,7 +48,7 @@ var friendData = [{
     },
     {
         "name": "Jack Sparrow",
-        "photo": "../images/jacksparrow.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/jacksparrow.jpeg",
         "scores": [
             5,
             5,
@@ -80,7 +64,7 @@ var friendData = [{
     },
     {
         "name": "Jessie",
-        "photo": "../images/jessie.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/jessie.jpeg",
         "scores": [
             4,
             2,
@@ -96,7 +80,7 @@ var friendData = [{
     },
     {
         "name": "Kristoff",
-        "photo": "../images/kristoff.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/kristoff.jpeg",
         "scores": [
             2,
             3,
@@ -112,7 +96,7 @@ var friendData = [{
     },
     {
         "name": "Olaf",
-        "photo": "../images/olaf.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/olaf.jpeg",
         "scores": [
             4,
             1,
@@ -128,7 +112,7 @@ var friendData = [{
     },
     {
         "name": "Silvermist",
-        "photo": "../images/silvermist.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/silvermist.jpeg",
         "scores": [
             4,
             1,
@@ -144,7 +128,7 @@ var friendData = [{
     },
     {
         "name": "Woody",
-        "photo": "../images/woody.jpeg",
+        "photo": "https://raw.github.com/ericjchoi/FriendFinder/master/app/images/woody.jpeg",
         "scores": [
             2,
             2,
