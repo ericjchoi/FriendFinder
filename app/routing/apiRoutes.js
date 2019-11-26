@@ -9,9 +9,8 @@ module.exports = function (app) {
 
     // post back the updated friendData into friends.js
     app.post("/api/friends", function (req, res) {
-
         var userSubmit = req.body;
-        //var friendFound = {};
+
         // storing user's score
         for (var i = 0; i < userSubmit.scores.length; i++) {
             switch (userSubmit.scores[i]) {
@@ -32,6 +31,7 @@ module.exports = function (app) {
                     break;
             }
         }
+
         // calculate the difference
         var minimumDifference = 1000;
         var bestCompatible = 0;
@@ -48,14 +48,8 @@ module.exports = function (app) {
             }
         }
 
-        // best compatible friend found
-        //friendFound = friends[bestCompatible];
-
-        // adding user submitted data into friendData in friends.js file
+        // update friend data
         friends.push(userSubmit);
-
-        // send json response
-        //res.json(friendFound);
         res.json(friends[bestCompatible]);
     });
 };
