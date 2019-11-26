@@ -1,18 +1,52 @@
 # Friend Finder
-### Under Construction
-### Current progress
 
-- Completed
-  - .gitignore file 
-  - file directories
-  - data file
-  - npm installation
-  - html routing and api routing
-  - logics for finding the most compatible friend
-  - display friend on modal
-- Current development
-  - display picture on modal
-  - update data file with added user input
-  - survey question revision
-  - include app running screenshots
-  - deploy to github and heroku
+### A compatibility finding server app using node, express and ajax deployed on Heroku.
+
+## Current progress
+* Completed
+  * GitHub repository
+  * .gitignore file 
+  * file directories
+  * data file
+  * npm init
+  * npm installation packages
+  * html routing and api routing
+  * `main.html` and `survey.html` codes _directly_ copied from the app demo link provided from class material repository.
+  * logics for finding the most compatible friend by calculating the sum of differences for each answer choices for all questions.
+  * display the best friend suggestion on modal
+  * deploy to github
+  * deploy to heroku
+  * solved heroku build and deploy issues
+  * update and display API Friends List with added user input at the end of the data array of objects
+  * forwarding to GitHub Repository
+  * app running screenshots included
+
+* Current development
+  * display friend pictures on modal
+
+
+
+* App running screenshots
+
+![figure1](./app/images/home.jpg)
+Figure 1. `main.html` of Friend Finder app running on Heroku. Click on `Go to Survey` will lead to `survey.html`. Click on `API Friends List` will route `/api/friends` and displays friends list array of objects. Click `GitHub Repo` will lead to FriendFinder repository on GitHub.
+
+![figure2](./app/images/survey1.jpg)
+Figure 2. `survey.html` captures user inputs which representing user's characteristics. All inputs and questions fields are required and will be validated when user submit the survey. Figure shows name, picture input and questions 1 through 3.
+
+![figure3](./app/images/survey2.jpg)
+Figure 3. `survey.html`. Figure shows questions 4 through 8.
+
+![figure4](./app/images/survey3.jpg)
+Figure 4. `survey.html`. Figure shows questions 9 through 10.
+
+![figure5](./app/images/modal1.jpg)
+Figure 5. `survey.html`. Upon clicking `Submit` button, modal pops up displaying the best matching or compatible friend suggestion as a result. Still under development for displaying friend's image.
+
+![figure6](./app/images/apiFriendsListUpdated.jpg)
+Figure 6. `/api/friends` route displays the updated friends list. The user named `Test_004` and answer choies are added at the end of friend list data array of objects.
+
+![figure7](./app/images/validationAlert.jpg)
+Figure 7. `survey.html`. Validation Alert pops up when the survey submitted with unanswered required field.
+
+* [Run app on Heroku](https://infinite-fortress-35051.herokuapp.com/)
