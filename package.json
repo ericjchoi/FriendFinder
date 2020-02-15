@@ -5,8 +5,9 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^7.35.0",
     "path": "^0.12.7",
-    "heroku": "^7.35.0"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {},
   "scripts": {
