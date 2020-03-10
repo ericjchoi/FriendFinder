@@ -1,6 +1,6 @@
 # Friend Finder
 
-### A compatibility finding server app using node, express and ajax deployed on Heroku.
+### A compatibility finding server app using Node.js, Express.js and Ajax deployed on Heroku.
 
 ## Current progress
 * Completed
@@ -14,9 +14,8 @@
   * `main.html` and `survey.html` codes are modified after _directly_ copied from the app demo link provided from class material repository.
   * logics for finding the most compatible friend by calculating the sum of differences for each answer choices for all questions.
   * display the best friend suggestion on modal
-  * deploy to github
-  * deploy to heroku
-  * solved heroku build and deploy issues
+  * deployed to Heroku
+  * solved Heroku build and deploy issues
   * update and display API Friends List with added user input at the end of the data array of objects
   * forwarding to GitHub Repository
   * app running screenshots included
